@@ -2,9 +2,9 @@
 
 import { Button } from "@/components/ui/button"
 import { useCallback } from "react"
-import Particles from "react-particles"
-import type { Engine } from "tsparticles-engine"
-import { loadSlim } from "tsparticles-slim"
+import { Particles } from "@tsparticles/react"
+import { type Engine } from "@tsparticles/engine"
+import { loadSlim } from "@tsparticles/slim"
 import { motion } from "framer-motion"
 import Link from 'next/link'
 
