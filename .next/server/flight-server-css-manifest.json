@@ -1,0 +1,18 @@
+{
+  "cssImports": {
+    "/data/data/com.termux/files/home/ElxyzAI/app/layout.tsx": [
+      "/data/data/com.termux/files/home/ElxyzAI/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"]}],\"import\":\"Inter\",\"path\":\"app/layout.tsx\",\"variableName\":\"inter\"}",
+      "/data/data/com.termux/files/home/ElxyzAI/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/data/data/com.termux/files/home/ElxyzAI/app/page": [
+      "/data/data/com.termux/files/home/ElxyzAI/app/globals.css",
+      "/data/data/com.termux/files/home/ElxyzAI/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"]}],\"import\":\"Inter\",\"path\":\"app/layout.tsx\",\"variableName\":\"inter\"}"
+    ],
+    "/data/data/com.termux/files/home/ElxyzAI/app/documentation/page": [
+      "/data/data/com.termux/files/home/ElxyzAI/app/globals.css",
+      "/data/data/com.termux/files/home/ElxyzAI/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"]}],\"import\":\"Inter\",\"path\":\"app/layout.tsx\",\"variableName\":\"inter\"}"
+    ]
+  }
+}
