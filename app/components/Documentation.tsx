@@ -2,9 +2,16 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter/dist/esm/prism'
+import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
 import { Copy, Check } from 'lucide-react'
+import bash from 'react-syntax-highlighter/dist/esm/languages/prism/bash'
+import javascript from 'react-syntax-highlighter/dist/esm/languages/prism/javascript'
+import json from 'react-syntax-highlighter/dist/esm/languages/prism/json'
+
+SyntaxHighlighter.registerLanguage('bash', bash)
+SyntaxHighlighter.registerLanguage('javascript', javascript)
+SyntaxHighlighter.registerLanguage('json', json)
 
 const curlExample = `curl -X POST https://elxyzgpt.xyz/api/chat \\
 -H "Content-Type: application/x-www-form-urlencoded" \\
